@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CallnClean</string>
+    <string name="rupee_price_symbol">Price: ₹</string>
+    <string name="quantity">Quantity:</string>
+</resources>

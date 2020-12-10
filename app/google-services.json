@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "395263985780",
+    "firebase_url": "https://callnclean-b4afa.firebaseio.com",
+    "project_id": "callnclean-b4afa",
+    "storage_bucket": "callnclean-b4afa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395263985780:android:46d403887740250bf72921",
+        "android_client_info": {
+          "package_name": "com.safdar.callnclean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395263985780-gq1q5boha869q0hu7i70m4vvasi21g47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu5AegvrfpkUTWUm4RlWdp4gdxN7jyUTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395263985780-gq1q5boha869q0hu7i70m4vvasi21g47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
