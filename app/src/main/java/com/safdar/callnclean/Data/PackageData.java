@@ -1,17 +1,18 @@
 package com.safdar.callnclean.Data;
 
 public class PackageData {
-    String itemName,itemDesc,itemPrice,itemQuantity,itemImage;
+    String itemName, itemDesc, itemPrice, itemImage;
+    Boolean AddedToCart;
 
-    public PackageData(String itemName, String itemDesc, String itemPrice, String itemQuantity, String itemImage) {
+    public PackageData() {
+    }
+
+    public PackageData(String itemName, String itemDesc, String itemPrice, String itemImage, Boolean addedToCart) {
         this.itemName = itemName;
         this.itemDesc = itemDesc;
         this.itemPrice = itemPrice;
-        this.itemQuantity = itemQuantity;
         this.itemImage = itemImage;
-    }
-
-    public PackageData() {
+        AddedToCart = addedToCart;
     }
 
     public String getItemName() {
@@ -38,19 +39,19 @@ public class PackageData {
         this.itemPrice = itemPrice;
     }
 
-    public String getItemQuantity() {
-        return itemQuantity;
-    }
-
-    public void setItemQuantity(String itemQuantity) {
-        this.itemQuantity = itemQuantity;
-    }
-
     public String getItemImage() {
         return itemImage;
     }
 
     public void setItemImage(String itemImage) {
         this.itemImage = itemImage;
+    }
+
+    public Boolean getAddedToCart() {
+        return AddedToCart;
+    }
+
+    public void setAddedToCart(Boolean addedToCart) {
+        AddedToCart = addedToCart;
     }
 }
